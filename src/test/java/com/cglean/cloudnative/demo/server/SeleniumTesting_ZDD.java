@@ -15,9 +15,9 @@ public class SeleniumTesting_ZDD {
 	public  void SeleniumTesting() throws InterruptedException {
 			
 			{
-				//System.setProperty("webdriver.chrome.driver", "/var/vcap/data/jenkins_slave/workspace/balaji.a.veerappan@capgemini.com/ZDD_selenium_demo/chromedriver.exe");
-				//WebDriver driver = new ChromeDriver();
-				WebDriver driver = new FirefoxDriver();
+				System.setProperty("webdriver.chrome.driver", "/var/vcap/data/jenkins_slave/workspace/selenium/ZDD_selenium_demo/chromedriver.exe");
+				WebDriver driver = new ChromeDriver();
+				//WebDriver driver = new FirefoxDriver();
 				driver.navigate().to("http://shows-cgleanv1.cglean.com/");
 				driver.manage().window().maximize();
 				Thread.sleep(1000);
