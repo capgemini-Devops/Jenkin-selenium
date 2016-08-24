@@ -15,10 +15,10 @@ public class SeleniumTesting_ZDD {
 	public  void SeleniumTesting() throws InterruptedException {
 			
 			{
-				System.setProperty("webdriver.chrome.driver", "D:/Users/baveerap/Desktop/chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 				WebDriver driver = new ChromeDriver();
 				//WebDriver driver = new FirefoxDriver();
-				driver.navigate().to("http://shows-zdd.cglean.com/");
+				driver.navigate().to("http://shows-cgleanv1.cglean.com/");
 				driver.manage().window().maximize();
 				Thread.sleep(1000);
 
