@@ -17,6 +17,7 @@ public class SeleniumTesting_ZDD {
 			{
 				//System.setProperty("webdriver.chrome.driver", "/var/lib/jenkins/workspace/SeleniumTest/chromedriver");
 				//WebDriver driver = new ChromeDriver();
+				System.setProperty("webdriver.gecko.driver", "/var/lib/jenkins/workspace/SeleniumTest/geckodriver");
 				WebDriver driver = new FirefoxDriver();
 				driver.navigate().to("http://shows-zdd-dev.cfapps.io/");
 				driver.manage().window().maximize();
