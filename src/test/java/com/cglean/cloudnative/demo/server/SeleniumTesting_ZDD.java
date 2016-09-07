@@ -18,7 +18,7 @@ public class SeleniumTesting_ZDD {
 				//System.setProperty("webdriver.chrome.driver", "/var/lib/jenkins/workspace/SeleniumTest/chromedriver");
 				//WebDriver driver = new ChromeDriver();
 				WebDriver driver = new FirefoxDriver();
-				driver.navigate().to("http://shows-cgleanv1.cglean.com/");
+				driver.navigate().to("http://shows-zdd-dev.cfapps.io/");
 				driver.manage().window().maximize();
 				Thread.sleep(1000);
 
